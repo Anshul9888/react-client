@@ -1,0 +1,112 @@
+backendapi
+=============================
+
+1) install( required for backend package)
+	npm init 	// generate package.json file
+	npm install express --save
+	npm install dotenv
+	npm install nodemon
+	npm install cors
+	npm install body-parser
+	npm install mongoose
+------------------------------------------
+2) about express : Express.js, or simply Express, is a back end web application framework for building RESTful APIs with Node.js
+----------------------------------
+3) create folder and file strctures
+4) .env file
+	1) about: The . env file is used in projects to store configuration settings, environment 	   variables, and sensitive information securely
+	2) npm install dotenv
+	3) config in server.js
+		require("dotenv").config()
+	4) access variable
+		const port = process.env.port
+5) database connection
+	1) create connection.js file
+	2) import mongoose driver
+	2) create connection 
+------------------------------------------
+6) create api
+	1) post api
+
+
+
+
+7) live (web service)
+	1) login render
+	2) new then web service
+	3) connect to github
+	4) node 	// change nodemon to node in package.json
+	
+	
+------------------------
+redux 
+==========
+Note: redux vs react-redux vs redux-toolkit
+	1) npm install @reduxjs/toolkit react-redux
+	2) create store file and config your store
+	3) wrap with whole application
+		provider , store
+	4) 
+	
+		
+
+
+
+
+
+
+
+configureStore
+reducer
+Provider
+store
+createSlice
+useSelector
+useDispatch
+dispatch
+state
+action
+
+
+
+
+	
+
+
+
+										
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
